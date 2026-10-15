@@ -22,7 +22,7 @@ public class ModeloConstancia implements Sujeto{
 
     private void cargarDatos() {
         alumnos.add(new Alumno("0281315", "Karem Lizbeth Flores López", "Lic. en contaduria publica"));
-        alumnos.add(new Alumno("0267460", "Karla Poala Flores López", "Ing. en Software"));
+        alumnos.add(new Alumno("0267460", "Karla Paola Flores López", "Ing. en Software"));
         alumnos.add(new Alumno("0278543", "Omar Aristeo Muñoz Álvarez", "Lic. en contaduria publica"));
         alumnos.add(new Alumno("0272163", "Marlenne Lizeth Álvarez Soto", "Ing. en Software"));
         alumnos.add(new Alumno("0288844", "Edwin Enriquez Armenta", "Ing. Biosistemas"));
