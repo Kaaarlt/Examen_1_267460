@@ -21,19 +21,19 @@ public class ModeloConstancia implements Sujeto{
     }
 
     private void cargarDatos() {
-        alumnos.add(new Alumno("000312", "Karem Lizbeth Flores López", "Lic. en contaduria publica"));
-        alumnos.add(new Alumno("000345", "Karla Poala Flores López", "Ing. en Software"));
-        alumnos.add(new Alumno("000398", "Omar Aristeo Muñoz Álvarez", "Lic. en contaduria publica"));
-        alumnos.add(new Alumno("000412", "Marlenne Lizeth Álvarez Soto", "Ing. en Software"));
-        alumnos.add(new Alumno("000457", "Edwin Enriquez Armenta", "Ing. Biosistemas"));
-        alumnos.add(new Alumno("000501", "Estefania Cazares Gil", "Lic. en contaduria publica"));
+        alumnos.add(new Alumno("0281315", "Karem Lizbeth Flores López", "Lic. en contaduria publica"));
+        alumnos.add(new Alumno("0267460", "Karla Poala Flores López", "Ing. en Software"));
+        alumnos.add(new Alumno("0278543", "Omar Aristeo Muñoz Álvarez", "Lic. en contaduria publica"));
+        alumnos.add(new Alumno("0272163", "Marlenne Lizeth Álvarez Soto", "Ing. en Software"));
+        alumnos.add(new Alumno("0288844", "Edwin Enriquez Armenta", "Ing. Biosistemas"));
+        alumnos.add(new Alumno("0279309", "Estefania Cazares Gil", "Lic. en contaduria publica"));
 
-        inscripciones.add(new Inscripcion("000312", 5, 6, true));
-        inscripciones.add(new Inscripcion("000345", 3, 5, true));
-        inscripciones.add(new Inscripcion("000398", 7, 6, true));
-        inscripciones.add(new Inscripcion("000412", 1, 7, true));
-        inscripciones.add(new Inscripcion("000457", 4, 6, true));
-        inscripciones.add(new Inscripcion("000501", 6, 0, false)); // no inscrito
+        inscripciones.add(new Inscripcion("0281315", 3, 8, true));
+        inscripciones.add(new Inscripcion("0267460", 5, 8, true));
+        inscripciones.add(new Inscripcion("0278543", 3, 8, true));
+        inscripciones.add(new Inscripcion("0272163", 6, 9, true));
+        inscripciones.add(new Inscripcion("0288844", 1, 10, true));
+        inscripciones.add(new Inscripcion("0279309", 3, 0, false)); // no inscrito
     }
 
     public void buscarAlumnos(String texto) {
